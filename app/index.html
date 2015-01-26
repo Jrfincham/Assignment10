@@ -10,6 +10,7 @@
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css" />
+    <link rel="stylesheet" href="../bower_components/octicons/octicons/octicons.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -23,7 +24,69 @@
   </head>
   <body>
 
-    <div class="hero-unit">
+    <div class="container">
+
+      <div class="header">
+
+        <div class="lefthead">
+
+          <a href="#" class="octicon"></a>
+
+            <span class="octicon octicon-mark-github"></span>
+
+          </a>
+
+          <form class="headSearch" action"">
+
+            <input class="search" type="text" placeholder="Search GitHub">
+
+          </form>
+
+          <a class="explore" href="https://github.com/explore">Explore</a>
+          <a class="gist" href="https://gist.github.com/">Gist</a>
+          <a class="blog" href="https://github.com/blog">Blog</a>
+          <a class="help" href="https://help.github.com/">Help</a>
+
+        </div>
+
+
+
+          <div class="righthead">
+
+            <ul class="iconList">
+
+              <div class="nameIcon">
+
+                <li class="avatarList">
+
+                  <a href="#" class="avatar"></a>
+
+                  <a href="https://github.com/Jrfincham" class="headname">Jrfincham</a>
+
+                </li>
+
+              </div>
+
+                <div class="octiconsRight">
+
+                  <li class="octiconList">
+
+                    <span class="octicon octicon-plus"></span><span class="octicon octicon-triangle-down"></span>
+                    <span class="octicon octicon-inbox"></span
+                    <span class="octicon octicon-gear"></span>
+                    <span class="octicon octicon-sign-out"></span>
+
+
+                  </li>
+
+                </div>
+
+            </ul>
+
+          </div>
+
+
+      </div>
 
     </div>
 
@@ -36,6 +99,8 @@
 
         <!-- build:js scripts/main.js -->
         <script src="scripts/main.js"></script>
+        <script src="scripts/repo.js"></script>
+        <script src="scripts/user.js"></script>
         <!-- endbuild -->
 </body>
 </html>
