@@ -123,8 +123,9 @@ body{
     width: 240px;
     height: 2000px;
     margin-left: 200px;
+    float: left;
     .sidebarName{
-      border-bottom: 1px solid gray;
+      border-bottom: 1px solid #CCCCCC;
       padding-bottom: 10px;
       img{
         border-radius: 5px;
@@ -136,6 +137,119 @@ body{
       .userName{
         font-size: 21px;
         color: #666666;
+      }
+    }
+    .joined{
+      padding-top: 13px;
+      padding-bottom: 13px;
+      border-bottom: 1px solid #CCCCCC;
+
+      span.octicon.octicon-clock{
+        color: #CCCCCC;
+      }
+      span.joinDate{
+        font-size: 14px;
+        padding-left: 12px;
+      }
+    }
+    .followBar{
+      height: 75px;
+      border-bottom: 1px solid #CCCCCC;
+      .follow{
+        float: left;
+        width: 60px;
+        height: 60px;
+        a{
+          font-size: 23pt;
+          text-decoration: none;
+          padding-left: 20px;
+          color: #4183C4;
+          span.follower{
+            font-size: 9px;
+            padding-left: 6px;
+            color: #A6A6A6;
+          }
+        }
+      }
+      .starred{
+        float: left;
+        width: 60px;
+        height: 60px;
+        a{
+          font-size: 23pt;
+          text-decoration: none;
+          padding-left: 20px;
+          color: #4183C4;
+          span.star{
+            font-size: 9px;
+            padding-left: 6px;
+            color: #A6A6A6;
+          }
+        }
+      }
+      .following{
+        float: left;
+        width: 60px;
+        height: 60px;
+        a{
+          font-size: 23pt;
+          text-decoration: none;
+          padding-left: 20px;
+          color: #4183C4;
+          span.following{
+            font-size: 9px;
+            padding-left: 6px;
+            color: #A6A6A6;
+          }
+        }
+      }
+    }
+    .organizations{
+      height: 75px;
+      span{
+        font-weight: bold;
+        position: relative;
+        top: 9px;
+      }
+    }
+  }
+  .mainContent{
+    float: right;
+    height: 1000px;
+    width: 975px;
+    .contentHead {
+      width: auto;
+      height: 37px;
+      border-bottom: 1px solid #CCCCCC;
+      a{
+        text-decoration: none;
+        color: black;
+      }
+      .contributionsTab{
+        height: 30px;
+        width: 117px;
+        border: 1px solid #CCCCCC;
+        float: left;
+        }
+      .repositoriesTab{
+        height: 30px;
+        width: 117px;
+        border: 1px solid #CCCCCC;
+        float: left;
+      }
+      .publicActivity{
+        height: 30px;
+        width: 117px;
+        border: 1px solid #CCCCCC;
+        float: left;
+      }
+      .button{
+        float: right;
+        margin-right: 30px;
+        button{
+          height: 28px;
+          width: 110px;
+        }
       }
     }
   }
