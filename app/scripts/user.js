@@ -1,4 +1,4 @@
-{
+var user = {
   "login": "Jrfincham",
   "id": 10384525,
   "avatar_url": "https://avatars.githubusercontent.com/u/10384525?v=3",
@@ -29,4 +29,4 @@
   "following": 1,
   "created_at": "2015-01-03T22:26:22Z",
   "updated_at": "2015-01-26T18:43:34Z"
-}
+};

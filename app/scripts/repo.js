@@ -1,4 +1,4 @@
-[
+var repos = [
 {
   "id": 29875722,
   "name": "Assignment10",
@@ -1043,4 +1043,4 @@
   "watchers": 0,
   "default_branch": "gh-pages"
 }
-]
+];
